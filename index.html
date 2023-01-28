@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website Developer Exercise - Plantamura</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -14,29 +23,31 @@
       <h1>LOGO</h1>
       <nav>
         <ul>
-          <li><a href="#" target="_blank">About</a></li>
-          <li><a href="#" target="_blank">Who We Are</a></li>
-          <li><a href="#" target="_blank">What We Do</a></li>
-          <li><a href="#" target="_blank">Contact</a></li>
+          <li><a class="nav-link" href="#" target="_blank">About</a></li>
+          <li><a class="nav-link" href="#" target="_blank">Who We Are</a></li>
+          <li><a class="nav-link" href="#" target="_blank">What We Do</a></li>
+          <li><a class="nav-link" href="#" target="_blank">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <article>
-        <h2>YOUR SUCCESSFUL WEBSITE TITLE</h2>
-        <p>
-          “The first rule of any technology used in a business is that
-          automation applied to an efficient operation will magnify the
-          efficiency. The second is that automation applied to an inefficient
-          operation will magnify the inefficiency.” - Bill Gates.
-        </p>
+        <div class="background">
+          <h2 class="article-h2">YOUR SUCCESSFUL WEBSITE TITLE</h2>
+          <p class="article-p">
+            “The first rule of any technology used in a business is that
+            automation applied to an efficient operation will magnify the
+            efficiency. The second is that automation applied to an inefficient
+            operation will magnify the inefficiency.” - Bill Gates.
+          </p>
+        </div>
       </article>
 
       <section>
-        <div>
-          <div>
-            <img src="images/icon-growth.png" alt="Growth Chart" />
+        <div class="grid-container">
+          <div class="grid-card">
+            <img class="icon-img" src="images/icon-growth.png" alt="Growth Chart" />
             <h3>Grow Your Business</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -44,8 +55,8 @@
               enim ad minim.
             </p>
           </div>
-          <div>
-            <img src="images/icon-megaphone.png" alt="Megaphone" />
+          <div class="grid-card">
+            <img class="icon-img" src="images/icon-megaphone.png" alt="Megaphone" />
             <h3>Get Your Business Noticed</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -53,8 +64,8 @@
               enim ad minim.
             </p>
           </div>
-          <div>
-            <img src="images/icon-shack.png" alt="House" />
+          <div class="grid-card">
+            <img class="icon-img" src="images/icon-shack.png" alt="House" />
             <h3>Find Perfect Solution</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -62,8 +73,8 @@
               enim ad minim.
             </p>
           </div>
-          <div>
-            <img src="images/icon-suitcase.png" alt="Suitcase" />
+          <div class="grid-card">
+            <img class="icon-img" src="images/icon-suitcase.png" alt="Suitcase" />
             <h3>Increase Productivity</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -74,10 +85,13 @@
         </div>
       </section>
 
-      <section>
-        <div>
-          <img src="images/team collaborating-min.jpg" alt="People Collaborating" />
-          <div>
+      <section class="meeting-container">
+        <div class="meeting">
+          <img class="team-img"
+            src="images/team collaborating-min.jpg"
+            alt="People Collaborating"
+          />
+          <div class="meeting-text">
             <h3>Goals We Can Help You Achieve</h3>
             <p>
               At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -88,8 +102,8 @@
             </p>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="meeting">
+          <div class="meeting-text">
             <h3>It All Starts With Strategy</h3>
             <p>
               Temporibus autem quibusdam et aut officiis debitis aut rerum
@@ -98,19 +112,24 @@
               sapiente delectus, ut aut reiciendis voluptatibus.
             </p>
           </div>
-          <img src="images/meeting room-min.jpg" alt="People Having A Meeting" />
+          <img class="team-img"
+            src="images/meeting room-min.jpg"
+            alt="People Having A Meeting"
+          />
         </div>
       </section>
 
       <section>
-        <h2>LET'S CREATE SOMETHING GREAT TOGETHER</h2>
-        <p>
+        <div class="background-2">
+        <h2 class="h2-2">LET'S CREATE SOMETHING GREAT TOGETHER</h2>
+        <p class="p-2">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
         </p>
         <button>CONTACT US</button>
+        </div>
       </section>
 
       <section>

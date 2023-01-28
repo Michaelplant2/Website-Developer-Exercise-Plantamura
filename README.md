@@ -13,14 +13,14 @@
   <p align="center">
     Mixed drink API database that is responsive and mobile friendly. Search up a drink you'd like and learn the ingredients to make it.
     <br />
-    <a href="https://github.com/Michaelplant2/Website-develop-exercise-plantamura"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="#">View Demo</a>
     ·
-    <a href="https://github.com/Michaelplant2/Website-develop-exercise-plantamura/issues">Report Bug</a>
+    <a href="https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Michaelplant2/Website-develop-exercise-plantamura/issues">Request Feature</a>
+    <a href="https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/issues">Request Feature</a>
   </p>
 </div>
 
@@ -87,7 +87,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key
 2. Clone the repo
    ```sh
-   git clone https://github.com/Michaelplant2/Website-develop-exercise-plantamura.git
+   git clone https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura.git
    ```
 3. Install NPM packages
    ```sh
@@ -121,23 +121,23 @@ Don't forget to give the project a star! Thanks again!
 
 Michael Plantamura - MEPlantamura@gmail.com
 
-Project Link: [https://github.com/Michaelplant2/Website-develop-exercise-plantamur](https://github.com/Michaelplant2/Website-develop-exercise-plantamur)
+Project Link: [https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura](https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura)
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Michaelplant2/Website-develop-exercise-plantamur.svg?style=for-the-badge
-[contributors-url]: https://github.com/Michaelplant2/Website-develop-exercise-plantamur/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Michaelplant2/Website-develop-exercise-plantamur.svg?style=for-the-badge
-[forks-url]: https://github.com/Michaelplant2/Website-develop-exercise-plantamur/network/members
-[stars-shield]: https://img.shields.io/github/stars/Michaelplant2/Website-develop-exercise-plantamur.svg?style=for-the-badge
-[stars-url]: https://github.com/Michaelplant2/Website-develop-exercise-plantamur/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Michaelplant2/Website-develop-exercise-plantamur.svg?style=for-the-badge
-[issues-url]: https://github.com/Michaelplant2/Website-develop-exercise-plantamur/issues
-[license-shield]: https://img.shields.io/github/license/Michaelplant2/Website-develop-exercise-plantamur.svg?style=for-the-badge
-[license-url]: https://github.com/Michaelplant2/Website-develop-exercise-plantamur/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Michaelplant2/Website-Developer-Exercise-Plantamura.svg?style=for-the-badge
+[contributors-url]: https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Michaelplant2/Website-Developer-Exercise-Plantamura.svg?style=for-the-badge
+[forks-url]: https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/network/members
+[stars-shield]: https://img.shields.io/github/stars/Michaelplant2/Website-Developer-Exercise-Plantamura.svg?style=for-the-badge
+[stars-url]: https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Michaelplant2/Website-Developer-Exercise-Plantamura.svg?style=for-the-badge
+[issues-url]: https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/issues
+[license-shield]: https://img.shields.io/github/license/Michaelplant2/Website-Developer-Exercise-Plantamura.svg?style=for-the-badge
+[license-url]: https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/michael-plantamura-458347223/
 [product-screenshot]: images/screenshot.png

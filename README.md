@@ -16,7 +16,7 @@
     <a href="https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://main.d17264xdsj2r7g.amplifyapp.com/">View Demo</a>
     ·
     <a href="https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura/issues">Report Bug</a>
     ·

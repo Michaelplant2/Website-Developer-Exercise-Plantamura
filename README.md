@@ -8,10 +8,10 @@
 
 
 
-<h3 align="center">Reactive Cocktails</h3>
+<h3 align="center">Website Developer Exercise - Plantamura</h3>
 
   <p align="center">
-    Mixed drink API database that is responsive and mobile friendly. Search up a drink you'd like and learn the ingredients to make it.
+    Developer practical exercise for Miles Technology
     <br />
     <a href="https://github.com/Michaelplant2/Website-Developer-Exercise-Plantamura"><strong>Explore the docs »</strong></a>
     <br />

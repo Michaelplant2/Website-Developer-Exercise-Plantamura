@@ -123,12 +123,12 @@ p {
 
 .meeting {
     display: flex;
-    gap: 200px;
+    gap: 150px;
 }
 
 .team-img {
-    width: 400px;
-    max-width: 100%;
+    max-width: 350px;
+    max-height: 230px;
 }
 
 .meeting-text {
@@ -213,6 +213,7 @@ button {
 
 .t-container {
     display: flex;
+    gap: 30px;
     padding: 0 50px 100px 50px;
 }
 
@@ -285,4 +286,85 @@ footer {
 
 .social {
     color: rgba(211, 211, 211, 0.486);
+}
+
+/*-------------*\
+#Media Queries
+\*-------------*/
+
+
+@media (max-width: 1000px) {
+    .meeting {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 855px) {
+    header {
+        justify-content: center;
+    }
+
+    .t-container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 745px) {
+    .grid-container {
+        flex-wrap: wrap;
+    }
+
+    .meeting {
+        gap: 10px;
+    }
+
+    .numb-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .background {
+        text-align: center;
+        height: auto;
+        padding: 5px;
+    }   
+    
+    .background-2,
+    .background-3 {
+        text-align: center;
+        align-items: center;
+        height: auto;
+        padding: 5px;
+    }
+
+    .p-2 {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 450px) {
+    ul {
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .article-p {
+        padding: 0;
+    }
+
+    .meeting-container,
+    .numb-container,
+    .t-container {
+        padding: 0 5px 50px 5px;
+    }
 }

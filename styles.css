@@ -80,27 +80,25 @@ ul {
 }
 
 .article-p {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin: 0;
-    padding: 0 150px;
+    padding: 0 160px;
 }
 
 .grid-container {
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(auto-fill, 250px);
+    display: flex;
+    justify-content: center;
     gap: 50px;
-    padding: 100px 0;
+    padding: 100px 50px;
 }
 
 .grid-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 0 40px;
+    width: 250px;
 }
 
 .icon-img {
@@ -108,11 +106,11 @@ ul {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .meeting-container {
@@ -120,7 +118,7 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding: 0 50px;
+    padding: 0 50px 100px 50px;
 }
 
 .meeting {
@@ -129,7 +127,7 @@ p {
 }
 
 .team-img {
-    width: 350px;
+    width: 400px;
     max-width: 100%;
 }
 
@@ -153,7 +151,6 @@ p {
     height: 45vh;
     color: #FFFFFF; 
     position: relative;
-    margin: 50px 0;
     padding-left: 50px;
 }
 
@@ -164,7 +161,7 @@ p {
 }
 
 .p-2 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: start;
     margin: 0;
     padding-right: 300px;
@@ -180,4 +177,112 @@ button {
     border-radius: 5px;
     width: 190px;
     height: 50px;
+    cursor: pointer;
+}
+
+.numb-container {
+    display: flex;
+    gap: 50px;
+    padding: 100px 50px 100px 50px;
+}
+
+.chart-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 150px;
+    gap: 30px;
+}
+
+.number-charts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(136, 92, 35);
+    width: 150px;
+}
+
+.charts-img {
+    width: 75px;
+    max-width: 100%;
+}
+
+.numb-texts {
+    margin: 0;
+    padding: 0 50px;
+}
+
+.t-container {
+    display: flex;
+    padding: 0 50px 100px 50px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    position: relative;
+    left: -10px;
+    top: 55px;
+    z-index: -1;
+    width: 75px;
+    filter: brightness(130%)
+}
+
+figure {
+    display: flex;
+    gap: 20px;
+}
+
+.headshot {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.background-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: none;
+    background-image: url("/images/climbing\ stairs-min.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.699);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 75vh;
+    color: #FFFFFF; 
+    position: relative;
+}
+
+.h2-3 {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.p-3 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 60px;
+    color: rgba(211, 211, 211, 0.486);
+    background-color: rgb(46, 42, 42);
+    padding: 70px 0;
+}
+
+.social {
+    color: rgba(211, 211, 211, 0.486);
 }
